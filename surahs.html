@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>سور القران</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>سور القران</h1>
-        <p>.اختر سورة للإستماع</p>
+      <h1>سور القران</h1>
+      <p>.اختر سورة للإستماع</p>
+      <button id="dark-mode-toggle" class="dark-mode-btn">الوضع الليلي</button>
     </header>
     <main>
-        <div id="surah-list" class="list-container"></div>
-        <div id="player-container">
-            <p id="current-surah">.لم يتم تشغيل سورة بعد</p>
-            <audio id="quran-audio" controls></audio>
-        </div>
+      <div id="surah-list" class="list-container"></div>
+      <div id="player-container">
+        <p id="current-surah">.لم يتم تشغيل سورة بعد</p>
+        <audio id="quran-audio" controls></audio>
+      </div>
     </main>
     <footer>
-        <p>© .محطة القران, جميع الحقوق محفوظة</p>
-        <p>Ahmed Mira</p>
+      <p>&copy; .محطة القران, جميع الحقوق محفوظة</p>
+      <p>Ahmed Mira</p>
     </footer>
+    <script src="dark-mode.js"></script>
     <script src="surahs.js"></script>
-</body>
+  </body>
 </html>
