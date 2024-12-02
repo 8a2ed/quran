@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+/* Containers */
+.reciter-container, .surah-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.reciter, .surah {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+.reciter:hover, .surah:hover {
+    background: #2ecc71;
+}
+
+/* Audio Player */
+#audio-player {
+    margin-top: 20px;
+}
+
+#audio-player audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #1c3a57;
+    color: white;
+    padding: 1rem 0;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+button.reciter, button.surah {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #1c3a57;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.reciter:hover, button.surah:hover {
+    background-color: #3b7cb0;
+}
+
+#player-container {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+audio {
+    width: 80%;
+}
